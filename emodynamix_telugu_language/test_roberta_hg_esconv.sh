@@ -1,0 +1,14 @@
+python main.py \
+--mode test \
+--load_checkpoint 2600 \
+--lr 4e-6 \
+--total_epochs 5 \
+--total_steps 2000 \
+--batch_size 1 \
+--weight_decay 1e-3 \
+--model "roberta-hg" \
+--dataset "esconv-preprocessed" \
+--erc_temperature 0.5 \
+--hg_dim 512 \
+--exclude_others 0 \
+--erc_mixed 1

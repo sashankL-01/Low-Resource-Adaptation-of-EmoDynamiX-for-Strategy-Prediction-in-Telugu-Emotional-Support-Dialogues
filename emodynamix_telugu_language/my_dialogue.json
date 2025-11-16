@@ -1,0 +1,14 @@
+{
+  "dialog": [
+    {
+      "speaker": "seeker",
+      "annotation": {},
+      "content": "హలో"
+    },
+    {
+      "speaker": "supporter",
+      "annotation": {"strategy": "Question"},
+      "content": "హలో, మీరు దేని గురించి మాట్లాడాలనుకుంటున్నారు?"
+    }
+  ]
+}
